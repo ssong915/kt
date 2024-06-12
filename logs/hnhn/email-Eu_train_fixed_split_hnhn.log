@@ -1,0 +1,2 @@
+args: Namespace(aggregator='Maxmin', alpha_e=0, alpha_v=0, batch_size=32, dataset_name='email-Eu', dim_edge=128, dim_hidden=128, dim_time=128, dim_vertex=128, early_stop=10, epochs=50, eval_mode='train_fixed_split', exp_num=1, folder_name='logs/hnhn/email-Eu_train_fixed_split_hnhn', freq_size=2628000, gpu=1, lr=0.0001, model='hnhn', neg_mode='sns', neg_size=100, num_layers=2, seed=1111, time_split_type='sec', training='wgan')
+============================================ Experiments 111 ==================================================

@@ -1,0 +1,26 @@
+args: Namespace(aggregator='Maxmin', alpha_e=0, alpha_edge=0.5, alpha_v=0, batch_size=64, dataset_name='email-Eu', dim_edge=128, dim_hidden=128, dim_time=128, dim_vertex=128, early_stop=10, edge_aware='true', edge_concat_mode='mlp', epochs=50, exp_num=1, folder_name='logs/hgnn/email-Eu_train_live_update_hgnn', freq_size=2628000, gpu=1, lr=0.0001, model='hgnn', neg_mode='sns', neg_size=100, node_aware='true', num_layers=2, seed=1111, ssl_loss='false', test_mode='train_live_update', time_concat_mode='mlp', time_layers=3, time_split_type='sec', training='wgan')
+============================================ Experiments 111 ==================================================0 time - 0 epoch, Training loss : 0.5136854648590088 / NS : Val AP : 0.4910283088684082 / AUROC : 0.49224813290656916
+0 time - 1 epoch, Training loss : 0.500652551651001 / NS : Val AP : 0.5573343634605408 / AUROC : 0.596923828125
+0 time - 2 epoch, Training loss : 0.48653513193130493 / NS : Val AP : 0.487357497215271 / AUROC : 0.481201171875
+0 time - 3 epoch, Training loss : 0.5022099614143372 / NS : Val AP : 0.4223443269729614 / AUROC : 0.3643798828125
+0 time - 4 epoch, Training loss : 0.4621674418449402 / NS : Val AP : 0.5132752656936646 / AUROC : 0.5274658203125
+0 time - 5 epoch, Training loss : 0.5128265619277954 / NS : Val AP : 0.5863173007965088 / AUROC : 0.647216796875
+0 time - 6 epoch, Training loss : 0.4903361201286316 / NS : Val AP : 0.48686879873275757 / AUROC : 0.47802734375
+0 time - 7 epoch, Training loss : 0.49754762649536133 / NS : Val AP : 0.5282487273216248 / AUROC : 0.5396825396825398
+0 time - 8 epoch, Training loss : 0.5004000067710876 / NS : Val AP : 0.5152458548545837 / AUROC : 0.5267333984375
+0 time - 9 epoch, Training loss : 0.5079116225242615 / NS : Val AP : 0.4486048221588135 / AUROC : 0.41357421875
+0 time - 10 epoch, Training loss : 0.5132290720939636 / NS : Val AP : 0.4935877025127411 / AUROC : 0.4903564453125
+0 time - 11 epoch, Training loss : 0.5110068917274475 / NS : Val AP : 0.5083160400390625 / AUROC : 0.530029296875
+0 time - 12 epoch, Training loss : 0.5139665603637695 / NS : Val AP : 0.6245085597038269 / AUROC : 0.68603515625
+0 time - 13 epoch, Training loss : 0.48952800035476685 / NS : Val AP : 0.500340461730957 / AUROC : 0.5123291015625
+0 time - 14 epoch, Training loss : 0.5068264007568359 / NS : Val AP : 0.4818137288093567 / AUROC : 0.47392290249433106
+0 time - 15 epoch, Training loss : 0.48451653122901917 / NS : Val AP : 0.5197255611419678 / AUROC : 0.5516357421875
+0 time - 16 epoch, Training loss : 0.503409206867218 / NS : Val AP : 0.4470587968826294 / AUROC : 0.4149169921875
+0 time - 17 epoch, Training loss : 0.5139815807342529 / NS : Val AP : 0.5116102695465088 / AUROC : 0.505859375
+0 time - 18 epoch, Training loss : 0.5039079785346985 / NS : Val AP : 0.5284695029258728 / AUROC : 0.5626220703125
+0 time - 19 epoch, Training loss : 0.4948281943798065 / NS : Val AP : 0.5048906803131104 / AUROC : 0.5135498046875
+0 time - 20 epoch, Training loss : 0.5029332637786865 / NS : Val AP : 0.4820621609687805 / AUROC : 0.485595703125
+0 time - 21 epoch, Training loss : 0.490858793258667 / NS : Val AP : 0.5704730153083801 / AUROC : 0.6145124716553287
+0 time - 22 epoch, Training loss : 0.48451560735702515 / NS : Val AP : 0.5545749664306641 / AUROC : 0.588134765625
+[0 time Val AP : 0.68603515625 / AUROC : 0.6245085597038269 ]
+[0 time Test AP : 0.5183819068650053 / AUROC : 0.5021226406097412 ]

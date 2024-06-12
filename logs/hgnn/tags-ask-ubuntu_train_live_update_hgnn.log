@@ -1,0 +1,12 @@
+args: Namespace(aggregator='Maxmin', alpha_e=0, alpha_edge=0.5, alpha_v=0, batch_size=64, dataset_name='tags-ask-ubuntu', dim_edge=128, dim_hidden=128, dim_time=128, dim_vertex=128, early_stop=10, edge_aware='true', edge_concat_mode='mlp', epochs=50, exp_num=1, folder_name='logs/hgnn/tags-ask-ubuntu_train_live_update_hgnn', freq_size=2628000, gpu=1, lr=0.0001, model='hgnn', neg_mode='sns', neg_size=100, node_aware='true', num_layers=2, seed=1111, ssl_loss='false', test_mode='train_live_update', time_concat_mode='mlp', time_layers=3, time_split_type='sec', training='wgan')
+============================================ Experiments 111 ==================================================0 time - 0 epoch, Training loss : 0.5130010843276978 / NS : Val AP : 0.6767460107803345 / AUROC : 0.635621301775148
+0 time - 1 epoch, Training loss : 0.5129907131195068 / NS : Val AP : 0.6926551461219788 / AUROC : 0.6348876953125
+0 time - 2 epoch, Training loss : 0.5107651948928833 / NS : Val AP : 0.5 / AUROC : 0.0
+0 time - 3 epoch, Training loss : 0.501104474067688 / NS : Val AP : 0.6733700037002563 / AUROC : 0.652099609375
+0 time - 4 epoch, Training loss : 0.5132089853286743 / NS : Val AP : 0.5 / AUROC : 0.5
+0 time - 5 epoch, Training loss : 0.5095232725143433 / NS : Val AP : 0.7278946042060852 / AUROC : 0.6839599609375
+0 time - 6 epoch, Training loss : 0.508399248123169 / NS : Val AP : 0.5 / AUROC : 0.5
+0 time - 7 epoch, Training loss : 0.5102835297584534 / NS : Val AP : 0.6337673664093018 / AUROC : 0.668212890625
+0 time - 8 epoch, Training loss : 0.5107063055038452 / NS : Val AP : 0.5 / AUROC : 0.5
+0 time - 9 epoch, Training loss : 0.5105170607566833 / NS : Val AP : 0.7685317993164062 / AUROC : 0.757568359375
+0 time - 10 epoch, Training loss : 0.5085351467132568 / NS : Val AP : 0.5 / AUROC : 0.5

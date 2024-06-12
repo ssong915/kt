@@ -1,0 +1,49 @@
+args: Namespace(aggregator='Maxmin', alpha_e=0, alpha_edge=0.5, alpha_v=0, batch_size=64, dataset_name='congress-bills', dim_edge=128, dim_hidden=128, dim_time=128, dim_vertex=128, early_stop=10, edge_aware='true', edge_concat_mode='mlp', epochs=50, exp_num=1, folder_name='logs/hgnn/congress-bills_train_live_update_hgnn', freq_size=1, gpu=1, lr=0.0001, model='hgnn', neg_mode='sns', neg_size=100, node_aware='true', num_layers=2, seed=1111, ssl_loss='false', test_mode='train_live_update', time_concat_mode='mlp', time_layers=3, time_split_type='sec', training='wgan')
+============================================ Experiments 111 ==================================================0 time - 0 epoch, Training loss : 0.5139508247375488 / NS : Val AP : 0.5663398504257202 / AUROC : 0.6166666666666667
+0 time - 1 epoch, Training loss : 0.5111504793167114 / NS : Val AP : 0.5663398504257202 / AUROC : 0.6166666666666667
+0 time - 2 epoch, Training loss : 0.5132832527160645 / NS : Val AP : 0.5455974340438843 / AUROC : 0.5833333333333334
+0 time - 3 epoch, Training loss : 0.5088379383087158 / NS : Val AP : 0.5455974340438843 / AUROC : 0.5833333333333334
+0 time - 4 epoch, Training loss : 0.5128159523010254 / NS : Val AP : 0.5172839164733887 / AUROC : 0.5333333333333333
+0 time - 5 epoch, Training loss : 0.5126014351844788 / NS : Val AP : 0.5773333311080933 / AUROC : 0.6333333333333333
+0 time - 6 epoch, Training loss : 0.5087460279464722 / NS : Val AP : 0.5773333311080933 / AUROC : 0.6333333333333333
+0 time - 7 epoch, Training loss : 0.5122382044792175 / NS : Val AP : 0.5769230723381042 / AUROC : 0.6333333333333333
+0 time - 8 epoch, Training loss : 0.49846458435058594 / NS : Val AP : 0.545751690864563 / AUROC : 0.5833333333333333
+0 time - 9 epoch, Training loss : 0.5118823051452637 / NS : Val AP : 0.5893616676330566 / AUROC : 0.65
+0 time - 10 epoch, Training loss : 0.499143123626709 / NS : Val AP : 0.5773333311080933 / AUROC : 0.6333333333333333
+0 time - 11 epoch, Training loss : 0.5044565796852112 / NS : Val AP : 0.5557692050933838 / AUROC : 0.6
+0 time - 12 epoch, Training loss : 0.5114966630935669 / NS : Val AP : 0.5555555820465088 / AUROC : 0.6
+0 time - 13 epoch, Training loss : 0.5113885998725891 / NS : Val AP : 0.6122449040412903 / AUROC : 0.6833333333333333
+0 time - 14 epoch, Training loss : 0.5017156600952148 / NS : Val AP : 0.5559999942779541 / AUROC : 0.6000000000000001
+0 time - 15 epoch, Training loss : 0.5111787915229797 / NS : Val AP : 0.5660377144813538 / AUROC : 0.6166666666666667
+0 time - 16 epoch, Training loss : 0.5103316903114319 / NS : Val AP : 0.5357142686843872 / AUROC : 0.5666666666666667
+0 time - 17 epoch, Training loss : 0.4971632957458496 / NS : Val AP : 0.5663398504257202 / AUROC : 0.6166666666666667
+0 time - 18 epoch, Training loss : 0.5108923316001892 / NS : Val AP : 0.6006944179534912 / AUROC : 0.6666666666666667
+0 time - 19 epoch, Training loss : 0.5108070969581604 / NS : Val AP : 0.5773333311080933 / AUROC : 0.6333333333333333
+0 time - 20 epoch, Training loss : 0.5037408471107483 / NS : Val AP : 0.5557692050933838 / AUROC : 0.6
+0 time - 21 epoch, Training loss : 0.5106323957443237 / NS : Val AP : 0.5663398504257202 / AUROC : 0.6166666666666667
+0 time - 22 epoch, Training loss : 0.4974956810474396 / NS : Val AP : 0.5559999942779541 / AUROC : 0.6000000000000001
+0 time - 23 epoch, Training loss : 0.49130427837371826 / NS : Val AP : 0.545751690864563 / AUROC : 0.5833333333333333
+[0 time Val AP : 0.6833333333333333 / AUROC : 0.6122449040412903 ]
+[0 time Test AP : 0.5 / AUROC : 0.5 ]
+1 time - 0 epoch, Training loss : 0.6418960690498352 / NS : Val AP : 0.5742093324661255 / AUROC : 0.6003460207612457
+1 time - 1 epoch, Training loss : 0.5630065202713013 / NS : Val AP : 0.5724936723709106 / AUROC : 0.6089965397923875
+1 time - 2 epoch, Training loss : 0.5534007549285889 / NS : Val AP : 0.5942047238349915 / AUROC : 0.6332179930795847
+1 time - 3 epoch, Training loss : 0.5962342619895935 / NS : Val AP : 0.5902296304702759 / AUROC : 0.6487889273356402
+1 time - 4 epoch, Training loss : 0.5434028506278992 / NS : Val AP : 0.5991074442863464 / AUROC : 0.6366782006920415
+1 time - 5 epoch, Training loss : 0.4773102402687073 / NS : Val AP : 0.5949301719665527 / AUROC : 0.6366782006920415
+1 time - 6 epoch, Training loss : 0.550767719745636 / NS : Val AP : 0.5786995887756348 / AUROC : 0.6107266435986158
+1 time - 7 epoch, Training loss : 0.4927757978439331 / NS : Val AP : 0.5904628038406372 / AUROC : 0.6228373702422145
+1 time - 8 epoch, Training loss : 0.5016048550605774 / NS : Val AP : 0.5965810418128967 / AUROC : 0.6418685121107266
+1 time - 9 epoch, Training loss : 0.5104774236679077 / NS : Val AP : 0.5949127078056335 / AUROC : 0.6228373702422145
+1 time - 10 epoch, Training loss : 0.4915710687637329 / NS : Val AP : 0.5733848810195923 / AUROC : 0.6003460207612457
+1 time - 11 epoch, Training loss : 0.49040287733078003 / NS : Val AP : 0.564332902431488 / AUROC : 0.5640138408304498
+1 time - 12 epoch, Training loss : 0.4444674849510193 / NS : Val AP : 0.552991509437561 / AUROC : 0.5034602076124567
+1 time - 13 epoch, Training loss : 0.5129050016403198 / NS : Val AP : 0.6283237934112549 / AUROC : 0.6955017301038062
+1 time - 14 epoch, Training loss : 0.5047225952148438 / NS : Val AP : 0.652830958366394 / AUROC : 0.71280276816609
+1 time - 15 epoch, Training loss : 0.5034579038619995 / NS : Val AP : 0.5754958391189575 / AUROC : 0.6072664359861593
+1 time - 16 epoch, Training loss : 0.5120982527732849 / NS : Val AP : 0.5695186853408813 / AUROC : 0.5951557093425606
+1 time - 17 epoch, Training loss : 0.5097898244857788 / NS : Val AP : 0.5723056793212891 / AUROC : 0.5951557093425606
+1 time - 18 epoch, Training loss : 0.5082924365997314 / NS : Val AP : 0.5696558356285095 / AUROC : 0.532871972318339
+1 time - 19 epoch, Training loss : 0.5082117319107056 / NS : Val AP : 0.5320608019828796 / AUROC : 0.4740484429065744
+1 time - 20 epoch, Training loss : 0.5003325343132019 / NS : Val AP : 0.5517776012420654 / AUROC : 0.5709342560553633
+1 time - 21 epoch, Training loss : 0.49852222204208374 / NS : Val AP : 0.5536078214645386 / AUROC : 0.5743944636678201

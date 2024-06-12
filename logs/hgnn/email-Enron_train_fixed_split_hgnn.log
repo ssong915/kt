@@ -1,0 +1,17 @@
+args: Namespace(aggregator='Maxmin', alpha_e=0, alpha_edge=0.5, alpha_v=0, batch_size=64, dataset_name='email-Enron', dim_edge=128, dim_hidden=128, dim_time=128, dim_vertex=128, early_stop=10, edge_aware='true', edge_concat_mode='mlp', epochs=50, exp_num=1, folder_name='logs/hgnn/email-Enron_train_fixed_split_hgnn', freq_size=2628000, gpu=1, lr=0.0001, model='hgnn', neg_mode='sns', neg_size=100, node_aware='true', num_layers=2, seed=1111, ssl_loss='false', test_mode='train_fixed_split', time_concat_mode='mlp', time_layers=3, time_split_type='sec', training='wgan')
+============================================ Experiments 111 ==================================================[0 epoch - Val AP : 0.630715504075338 / AUROC : 0.6032053828239441 ]
+[1 epoch - Val AP : 0.6100938554560404 / AUROC : 0.5803958773612976 ]
+[2 epoch - Val AP : 0.6074251130261666 / AUROC : 0.5808495879173279 ]
+[3 epoch - Val AP : 0.6096084738114952 / AUROC : 0.5810999870300293 ]
+[4 epoch - Val AP : 0.6135341561675887 / AUROC : 0.5820744037628174 ]
+[5 epoch - Val AP : 0.5985787982448998 / AUROC : 0.5718930959701538 ]
+[6 epoch - Val AP : 0.6049989774366904 / AUROC : 0.577149510383606 ]
+[7 epoch - Val AP : 0.619426391700602 / AUROC : 0.5876941680908203 ]
+[8 epoch - Val AP : 0.612111368834689 / AUROC : 0.5817025303840637 ]
+[9 epoch - Val AP : 0.6116646860381275 / AUROC : 0.5826606154441833 ]
+[10 epoch - Val AP : 0.5985430555589148 / AUROC : 0.5714674592018127 ]
+[Best epoch AP : 0.630715504075338 / AUROC : 0.6032053828239441 ]
+[Test AP : 0.7051972699243624 / AUROC : 0.6806815266609192 ]
+0.7052	0.6807
+NS : avg AP : 0.6806815266609192 / avg AUROC : 0.7051972699243624
+============================================ Test End =================================================
